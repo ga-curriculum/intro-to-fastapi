@@ -9,23 +9,16 @@ setup = new Template.Microlesson {
   videoUrl = ""
 }
 
-concepts = new Template.Microlesson {
-  friendlyName = "Concepts"
-  dirName = "concepts"
+whatIsFastApi = new Template.Microlesson {
+  friendlyName = "What is FastAPI"
+  dirName = "what-is-fast-api"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson01 = new Template.Microlesson {
-  friendlyName = "Microlesson 01"
-  dirName = "microlesson-01"
-  type = "Content"
-  videoUrl = ""
-}
-
-microlesson02 = new Template.Microlesson {
-  friendlyName = "Microlesson 02"
-  dirName = "microlesson-02"
+buildingYourFirstApi = new Template.Microlesson {
+  friendlyName = "Building Your First API"
+  dirName = "building-your-first-api"
   type = "Content"
   videoUrl = ""
 }

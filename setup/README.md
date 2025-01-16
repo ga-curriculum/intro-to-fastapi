@@ -1,29 +1,31 @@
 <h1>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Intro to FastAPI</span>
   <span class="subhead">Setup</span>
 </h1>
 
 ## Setup
 
-tktk The below is a generic starting point for lecture setup. You may need to make adjustments to this.
-
-Open your Terminal application and navigate to your <code class="filepath">~/code/ga/lectures</code> directory:
+Open your Terminal application and navigate to your **`~/development/lessons`** directory:
 
 ```bash
-cd ~/code/ga/lectures
+cd ~/development/lessons
 ```
 
-Make a new directory called <code class="filepath">tktk-module-name</code>, then enter this directory:
+Create a project directory **fastapi-hello-world**:
 
-```bash
-mkdir tktk-module-name
-cd tktk-module-name
+```sh
+mkdir fastapi-hello-world
+cd fastapi-hello-world
 ```
 
-Open the contents of the directory in VS Code:
+Install `FastAPI` using `pipenv`. In addition to FastAPI, we also need to install `Uvicorn`:
+
+```sh
+pipenv install fastapi uvicorn
+```
+
+Open the contents of the directory in VSCode:
 
 ```bash
 code .
 ```
-
-tktk Are there more lecture setup steps? Don't forget to add them here.

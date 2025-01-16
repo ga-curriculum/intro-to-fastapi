@@ -1,21 +1,22 @@
 <h1>
   <span class="prefix"></span>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Intro to FastAPI</span>
 </h1>
 
 ## About
 
-tktk Write a short but descriptive summary of the content in this module.
+FastAPI is a modern, fast, and easy-to-use web framework designed for building APIs quickly and efficiently. Whether you’re new to web development or looking to expand your skills, this module will guide you through setting up your environment, learning the core features of FastAPI, and building your very first API.
+
+FastAPI's user-friendly design and powerful tools make it the perfect choice for beginners and professionals alike. By the end of this module, you’ll have a working "Hello, World!" API and a solid foundation for building more advanced applications.
 
 ## Content
 
-| Lesson | Est. Delivery Time | Skills |
-| ------ |:------------------:| ------ |
-| [Setup](./setup/README.md)                          | -- | Set up the development environment. |
-| [Concepts](./concepts/README.md)                    | -- | tktk Skills to cover                |
-| [tktk Microlesson Name](./microlesson-01/README.md) | -- | tktk Skills to cover                |
-| [tktk Microlesson Name](./microlesson-02/README.md) | -- | tktk Skills to cover                |
-| **Total content**                                   | -- |                                     |
+| Lesson                                                         | Est. Delivery Time | Skills                                                                                            |
+| -------------------------------------------------------------- | :----------------: | ------------------------------------------------------------------------------------------------- |
+| [Setup](./setup/README.md)                                     |       5 min        | Set up the development environment.                                                               |
+| [What is FastAPI?](./what-is-fast-api/README.md)               |       10 min       | Understand the key features and advantages of FastAPI as a modern web framework for building APIs |
+| [Building Your First API](./building-your-first-api/README.md) |       30 min       | Implement a basic FastAPI application with a 'hello world' route.                                 |
+| **Total content**                                              |       45 min       |                                                                                                   |
 
 ## References
 
@@ -25,32 +26,12 @@ tktk Write a short but descriptive summary of the content in this module.
 
 ### Prerequisites
 
-- tktk
-- tktk
-- tktk
-
-### Starter code
-
-tktk If there is not a starter code repo that students will use to start this lesson, then this section and all of its content should be removed.
-
-🟢 [Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk)
-
-### Solution code
-
-tktk If there is not solution code related to this module this section and all of its content should be removed.
-
-🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk)
-
-### Deployed site
-
-tktk If there is not a deployed site related to this module this section and all of its content should be removed.
-
-🌐 [Live site](https://generalassemb.ly/tktk)
+- Intro to Python Virtual Environments
 
 ### Course landing pages
 
-- [tktk-course-acronym - tktk Course Full Name](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/tktk-course-acronym.html)
-- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/fallback.html)
+- [APD - Advanced Python for Developers](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-fast-api/canvas-landing-pages/apd.html)
+- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-fast-api/canvas-landing-pages/fallback.html)
 
 ### Resources
 
