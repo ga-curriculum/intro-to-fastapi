@@ -5,7 +5,7 @@
 
 **Learning objective**: By the end of this lesson, you will be able to **implement** a basic FastAPI application with a 'hello world' route.
 
-## Create Entry-point Module
+## Create an entry-point module
 
 First let's create a `main.py` file in the root directory:
 
@@ -13,41 +13,41 @@ First let's create a `main.py` file in the root directory:
 touch main.py
 ```
 
-## Import FastAPI Dependency
+## Import the FastAPI dependency
+
+First import the FastAPI class from the `fastapi` module:
 
 ```py
 # main.py
-from fastapi import FastAPI
 
-# Import the FastAPI class from the fastapi module
+from fastapi import FastAPI
 ```
 
-## Initialize the API Application
+## Initialize the API application
+
+Next we create an instance of the FastAPI class:
 
 ```py
 # main.py
 
-# ...
-
 app = FastAPI()
-
-# Create an instance of the FastAPI class
 ```
 
 ## Defining the 'hello world' Route
 
+Next we will define a root endpoint that responds to `GET` requests:
+
 ```py
 # main.py
-# ...
 
 @app.get('/')
 def home():
     return 'Hello World!!!!'
-
-# Define a root endpoint that responds to GET requests
 ```
 
-## Complete `hello world` App
+## The complete `hello world` app
+
+Your final code will look like this:
 
 ```py
 # main.py
@@ -59,9 +59,7 @@ app = FastAPI()
 
 @app.get('/')
 def home():
-    """Hello world function"""
     return 'Hello World!!!!'
-
 ```
 
 ## Starting the API Server
@@ -95,11 +93,10 @@ Why? The server doesn’t automatically update to reflect changes in your code. 
 
 Luckily, FastAPI can handle this for you. The tool we’re using to run FastAPI, called `uvicorn`, has a feature to automatically restart the server whenever you change your code.
 
-To use this feature:  
+To use this feature:
 
-1. Stop the server by pressing **Ctrl+C**.  
+1. Stop the server by pressing **Ctrl+C**.
 2. Restart it with this command, adding the `--reload` flag:
-
 
 ```sh
 pipenv run uvicorn main:app --reload
