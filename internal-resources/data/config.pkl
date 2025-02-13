@@ -14,7 +14,7 @@ repo {
   // This name is shown in the header nav to navigate users home
   friendlyName = "Intro to FastAPI"
   // This must match the repo name as it appears on GitHub exactly
-  name = "intro-to-fast-api"
+  name = "intro-to-fastapi"
   type = "Lesson"
 }
 
